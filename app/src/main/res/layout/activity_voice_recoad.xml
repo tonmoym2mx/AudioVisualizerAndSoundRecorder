@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".VoiceRecoadActivity">
-    <com.example.audiovisualizer.views.AudioVisualizer
+    <com.tonmoym2mx.audiovisualizer.AudioVisualizer
             android:id="@+id/visualizer"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
@@ -18,8 +18,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
-
-
+    
     <Button
         android:id="@+id/recoadBtn"
         android:layout_width="wrap_content"

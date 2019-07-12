@@ -1,5 +1,6 @@
-package com.example.audiovisualizer.views;
+package com.tonmoym2mx.audiovisualizer;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -32,6 +33,7 @@ public class AudioVisualizer extends View {
     }
 
 
+    @SuppressLint("NewApi")
     public AudioVisualizer(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init(attrs);
