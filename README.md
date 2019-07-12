@@ -94,10 +94,12 @@ Set Timer Update Listener
         
 ```
 
-Play Audio
+Audio Player 
+
+<img src="https://user-images.githubusercontent.com/41751781/61119347-6f529200-a4bc-11e9-9e9b-a41bec21a867.jpg" width="200">
+
 
 ```java
-
 AudioPlayerDialog playerDialog = new AudioPlayerDialog(MainActivity.this, filePath);
 
 playerDialog.show();
